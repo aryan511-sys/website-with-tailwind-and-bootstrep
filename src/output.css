@@ -588,6 +588,10 @@ video {
   }
 }
 
+.tw-fixed {
+  position: fixed;
+}
+
 .tw-mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -644,10 +648,6 @@ video {
 
 .tw-justify-between {
   justify-content: space-between;
-}
-
-.tw-overflow-hidden {
-  overflow: hidden;
 }
 
 .tw-rounded {
@@ -801,6 +801,10 @@ video {
   background : #e1ebfa;
   width : 100%;
   padding-bottom: 2rem;
+}
+
+.navbar{
+  background-color: #e1ebfa;
 }
 
 .img-header{
@@ -978,36 +982,8 @@ svg{
 }
 
 @media not all and (min-width: 768px) {
-  .max-md\:tw-ml-2 {
-    margin-left: 0.5rem;
-  }
-
-  .max-md\:tw-ml-4 {
-    margin-left: 1rem;
-  }
-
-  .max-md\:tw-ml-5 {
-    margin-left: 1.25rem;
-  }
-
-  .max-md\:tw-ml-6 {
-    margin-left: 1.5rem;
-  }
-
-  .max-md\:tw-ml-7 {
-    margin-left: 1.75rem;
-  }
-
   .max-md\:tw-block {
     display: block;
-  }
-
-  .max-md\:tw-pl-6 {
-    padding-left: 1.5rem;
-  }
-
-  .max-md\:tw-pl-7 {
-    padding-left: 1.75rem;
   }
 
   .max-md\:tw-pl-10 {
