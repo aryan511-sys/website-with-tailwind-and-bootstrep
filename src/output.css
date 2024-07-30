@@ -618,6 +618,10 @@ video {
   margin-top: 1.75rem;
 }
 
+.tw-mt-9 {
+  margin-top: 2.25rem;
+}
+
 .tw-flex {
   display: flex;
 }
