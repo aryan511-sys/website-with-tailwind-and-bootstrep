@@ -634,6 +634,10 @@ video {
   width: 100%;
 }
 
+.tw-w-screen {
+  width: 100vw;
+}
+
 .tw-flex-col {
   flex-direction: column;
 }
@@ -941,6 +945,10 @@ svg{
 
 .footer{
   background: #f8f9fa;
+}
+
+.container-0001{
+  padding-left: 10%;
 }
 
 .hover\:tw-border-solid:hover {
